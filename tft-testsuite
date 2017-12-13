@@ -373,11 +373,9 @@ Configuration about tests :
 - Test suite : folder  : ".$testsuiteFolder."
 - Mode verbose         : ".($modeVerbose?"ON":"OFF")."
 - Mode debug           : ".($modeDebug?"ON":"OFF")."
-";
-/*
 - Endpoint login       : ".$ENDPOINT->getLogin()."
 - Endpoint password    : ".$ENDPOINT->getPassword()."
-*/
+";
 /////////////// INIT TEST SUITE
 
 $TESTSUITE = null;
